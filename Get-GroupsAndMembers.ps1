@@ -19,6 +19,8 @@
   On A Domain Controller - run:    PS:C:\source ./Get-Groups.ps1
 #>
 
+Import-Module ActiveDirectory
+
 #Test if Folder Exists
 
 $FolderName = "C:\source\Groups"

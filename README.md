@@ -1,3 +1,5 @@
 # Get-Groups
 
-Use this to get ALL AD groups and the members of each group
+This assumes you have a folder called Source on the C:\ Drive. 
+
+Copy this to the Source Folder and run it out of Powershell
