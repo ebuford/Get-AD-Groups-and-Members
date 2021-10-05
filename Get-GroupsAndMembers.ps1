@@ -54,9 +54,7 @@ $GroupName = $Group.SamaccountName
 
 
 $path = "C:\Source\Groups\" + $GroupName + ".csv"
-
-Get-AdGroupMember -identity $GroupName |Export-CSV -path $path -NoTypeInformation
-
 Write-host "Creating Repoort for " $GroupName -Foregroundcolor Green
+Get-AdGroupMember -identity $GroupName |Export-CSV -path $path -NoTypeInformation
 
 }
